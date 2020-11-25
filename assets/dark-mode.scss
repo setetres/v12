@@ -1,0 +1,65 @@
+@import 'placeholder';
+
+html.dark-mode {
+    --color-foreground: #ffffff;
+    --color-background: #000000;
+
+    .application {
+        @extend %background-stripes-white;
+
+        &__content--inkstarter {
+            img {
+                filter: grayscale(1) contrast(250%) invert(100%);
+            }
+        }
+    }
+
+    .nuxt-progress {
+        @extend %background-waves-white;
+    }
+}
+
+.switch {
+    display: block;
+    height: var(--spacer-5);
+    margin-right: var(--spacer-1);
+    position: relative;
+    width: calc(var(--spacer-8) + var(--spacer-1));
+
+    &__slider {
+        background-color: var(--color-foreground);
+        border-radius: var(--spacer-5);
+        bottom: 0;
+        cursor: pointer;
+        left: 0;
+        position: absolute;
+        right: 0;
+        top: 0;
+        transition: .4s;
+
+        &::before {
+            background-color: var(--color-background);
+            border-radius: 50%;
+            content: '';
+            height: var(--spacer-3);
+            left: calc(var(--spacer-1) / 1.5);
+            position: absolute;
+            top: 50%;
+            transform: translateX(0) translateY(-50%);
+            transition: transform var(--transition-timing) var(--transition-easing);
+            width: var(--spacer-3);
+        }
+    }
+
+    input {
+        display: none;
+
+        &:checked + .switch__slider {
+            background-color: var(--color-foreground);
+
+            &::before {
+                transform: translateX(calc(var(--spacer-4) / 1.1)) translateY(-50%);
+            }
+        }
+    }
+}

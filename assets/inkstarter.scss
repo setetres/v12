@@ -1,0 +1,13 @@
+.application__content--inkstarter {
+    img {
+        filter: grayscale(1) contrast(250%);
+    }
+
+    .application__content-half {
+        border-bottom: 1px solid var(--color-foreground);
+
+        &:nth-last-child(odd) {
+            border-right: 1px solid var(--color-foreground);
+        }
+    }
+}

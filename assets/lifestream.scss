@@ -1,0 +1,9 @@
+.application__content--lifestream {
+    .application__content-half {
+        border-bottom: 1px solid var(--color-foreground);
+
+        &:nth-last-child(even) {
+            border-right: 1px solid var(--color-foreground);
+        }
+    }
+}

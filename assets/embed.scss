@@ -1,0 +1,36 @@
+.embed {
+    display: block;
+    overflow: hidden;
+    padding-top: 56.25%;
+    position: relative;
+    width: 100%;
+
+    iframe,
+    embed,
+    object,
+    video {
+        border: 0;
+        bottom: 0;
+        height: 100%;
+        left: 0;
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 100%;
+    }
+
+    &--calendar {
+        border: 1px solid var(--color-foreground);
+        height: 453px;
+        margin-top: var(--spacer-3);
+        padding-top: 0;
+
+        iframe,
+        embed,
+        object,
+        video {
+            height: calc(100% + 55px);
+            top: -30px;
+        }
+    }
+}

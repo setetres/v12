@@ -1,0 +1,60 @@
+.revue-embed {
+    form {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+
+        @media (min-width: 768px) {
+            flex-direction: row;
+        }
+
+        label {
+            height: 100%;
+            left: 0;
+            position: absolute;
+            text-indent: -999999px;
+            top: 0;
+            width: 100%;
+            z-index: 1;
+        }
+    }
+}
+
+.member_email {
+    width: 100%;
+    z-index: 2;
+}
+
+.member_submit {
+    cursor: pointer;
+    margin-left: var(--spacer-2);
+    z-index: 3;
+}
+
+.member_email,
+.member_submit {
+    appearance: none;
+    background-color: var(--color-foreground);
+    border: var(--border-width) solid var(--color-foreground);
+    border-radius: var(--spacer-8);
+    color: var(--color-background);
+    font-size: calc(var(--font-size) / 2);
+    font-style: italic;
+    line-height: 1.5;
+    padding: calc(var(--text-1) / 4) calc(var(--text-2) / 2);
+    position: relative;
+    text-align: left;
+
+    @media (min-width: 768px) {
+        font-size: var(--font-size);
+    }
+
+    &:focus {
+        border: var(--border-width) solid var(--color-background);
+        outline: none;
+
+        &::placeholder {
+            color: var(--color-background);
+        }
+    }
+}

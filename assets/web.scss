@@ -1,0 +1,82 @@
+.application__content--web {
+    .application__content-half {
+        border-bottom: 1px solid var(--color-foreground);
+
+        &:nth-last-child(even) {
+            border-right: 1px solid var(--color-foreground);
+        }
+    }
+}
+
+.web {
+    a {
+        padding: 0;
+        padding-top: 100%;
+
+        &::before {
+            clear: both;
+            content: '';
+            display: block;
+        }
+    }
+
+    &--v11 a {
+        background-color: #757575;
+        background-image: linear-gradient(43deg, #757575 0%, #d9d9d9 46%, #ffffff 100%);
+    }
+
+    &--v10 a {
+        background-color: #757575;
+        background-image: linear-gradient(43deg, #757575 0%, #d9d9d9 46%, #ffffff 100%);
+    }
+
+    &--v9 a {
+        background-color: #0074d9;
+        background-image: linear-gradient(43deg, #0074d9 0%, #ffffff 100%);
+    }
+
+    &--v8 a {
+        background-color: #166678;
+        background-image: linear-gradient(43deg, #166678 0%, #7db9b3 46%, #d8d7c3 100%);
+    }
+
+    &--v7 a {
+        background-color: #15191d;
+        background-image: linear-gradient(43deg, #15191d 0%, #2d3945 46%, #4b538b 100%);
+    }
+
+    &--v6 a {
+        background-color: #82e2e0;
+        background-image: linear-gradient(160deg, #82e2e0 0%, #e2f7f0 100%);
+    }
+
+    &--v5 a {
+        background-color: #1a1a1a;
+        background-image: linear-gradient(43deg, #1a1a1a 0%, #2ecc71 100%);
+    }
+
+    &--v4 a {
+        background-color: #5ad3cc;
+        background-image: linear-gradient(43deg, #5ad3cc 0%, #c56b66 100%);
+    }
+
+    &--v3 a {
+        background-color: #000000;
+        background-image: linear-gradient(43deg, #000000 0%, #64a9c4 73%, #baf002 100%);
+    }
+
+    &--v2 a {
+        background-color: #d8ab72;
+        background-image: linear-gradient(43deg, #d8ab72 0%, #ffe8c4 100%);
+    }
+
+    &--v1997 a {
+        background-color: #0000ff;
+        background-image: linear-gradient(43deg, #0000ff 0%, #000000 100%);
+    }
+
+    &--v1 a {
+        background-color: #000000;
+        background-image: linear-gradient(43deg, #000000 0%, #f2f2f2 100%);
+    }
+}

@@ -16,13 +16,13 @@ export default {
             { hid: 'og:type', property: 'og:type', content: 'website' },
             { hid: 'og:title', property: 'og:title', content: 'Sete Três' },
             { hid: 'og:description', property: 'og:description', content: 'QWxzbyBLbm93biBhcyBHdWlsaGVybWUgUGFuZ25vdHRh' },
-            { hid: 'og:image', property: 'og:image', content: 'https://setetres.st/images/share.png' },
+            { hid: 'og:image', property: 'og:image', content: 'https://setetres.st/images/share-v12.png' },
             { hid: 'og:url', property: 'og:url', content: 'https://setetres.st' },
 
             { hid: 'twitter:card', name: 'twitter:card', content: 'summary_large_image' },
             { hid: 'twitter:title', name: 'twitter:title', content: 'Sete Três' },
             { hid: 'twitter:description', name: 'twitter:description', content: 'QWxzbyBLbm93biBhcyBHdWlsaGVybWUgUGFuZ25vdHRh' },
-            { hid: 'twitter:image', name: 'twitter:image', content: 'https://setetres.st/images/share.png' }
+            { hid: 'twitter:image', name: 'twitter:image', content: 'https://setetres.st/images/share-v12.png' }
         ],
         link: [
             { rel: 'canonical', href: 'https://setetres.st' },

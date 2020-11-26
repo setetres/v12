@@ -1,12 +1,8 @@
 .revue-embed {
     form {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         position: relative;
-
-        @media (min-width: 768px) {
-            flex-direction: row;
-        }
 
         label {
             height: 100%;
@@ -38,16 +34,13 @@
     border: var(--border-width) solid var(--color-foreground);
     border-radius: var(--spacer-8);
     color: var(--color-background);
-    font-size: calc(var(--font-size) / 2);
-    font-style: italic;
-    line-height: 1.5;
+    font-size: var(--text-p);
+    letter-spacing: var(--letter-spacing);
+    line-height: var(--line-height);
     padding: calc(var(--text-1) / 4) calc(var(--text-2) / 2);
     position: relative;
     text-align: left;
-
-    @media (min-width: 768px) {
-        font-size: var(--font-size);
-    }
+    vertical-align: middle;
 
     &:focus {
         border: var(--border-width) solid var(--color-background);

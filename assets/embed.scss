@@ -21,16 +21,8 @@
 
     &--calendar {
         border: 1px solid var(--color-foreground);
-        height: 453px;
+        height: 508px;
         margin-top: var(--spacer-3);
         padding-top: 0;
-
-        iframe,
-        embed,
-        object,
-        video {
-            height: calc(100% + 55px);
-            top: -30px;
-        }
     }
 }

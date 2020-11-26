@@ -39,8 +39,12 @@
 
     &-half {
         background-color: var(--color-background);
-        grid-column: span 2;
+        grid-column: span 4;
         padding: var(--spacer-7);
+
+        @media (min-width: 768px) {
+            grid-column: span 2;
+        }
     }
 
     &-inverse {

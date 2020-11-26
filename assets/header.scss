@@ -11,30 +11,6 @@
         top: -2px;
     }
 
-    svg {
-        margin: calc(var(--gutter) / 6) calc(var(--gutter) / 3);
-        width: calc(var(--spacer-8) * 2);
-
-        line,
-        path {
-            fill: none;
-            stroke: var(--color-foreground);
-            stroke-dasharray: 3000;
-            stroke-dashoffset: 6000;
-            stroke-linecap: round;
-            stroke-linejoin: round;
-            stroke-width: 15;
-        }
-
-        path {
-            animation: sttrs-svg 6666ms cubic-bezier(.4, 0, .14, 1) forwards infinite;
-        }
-
-        line {
-            animation: sttrs-svg 6666ms cubic-bezier(.4, 0, .14, 1) 666ms forwards infinite;
-        }
-    }
-
     div {
         align-items: center;
         display: flex;
@@ -54,6 +30,10 @@
 
         li {
             margin: 0 var(--spacer-2) 0 0;
+
+            &:last-child {
+                margin: 0;
+            }
         }
     }
 }

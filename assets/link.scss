@@ -9,10 +9,6 @@
     overflow: hidden;
     padding: calc(var(--text-1) / 4) calc(var(--text-2) / 2);
     text-decoration: none;
-    transition:
-        color var(--transition-timing) var(--transition-easing),
-        background-color var(--transition-timing) var(--transition-easing),
-        border-color var(--transition-timing) var(--transition-easing);
     white-space: nowrap;
 
     &:hover {

@@ -35,7 +35,6 @@ html.dark-mode {
         position: absolute;
         right: 0;
         top: 0;
-        transition: .4s;
 
         &::before {
             background-color: var(--color-background);

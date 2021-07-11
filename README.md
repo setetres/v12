@@ -6,7 +6,7 @@
 License
 -------
 
-[CC-BY-4.0]
+[CC0-1.0]
 
 [http://setetres.st]: http://setetres.st
-[CC-BY-4.0]: http://creativecommons.org/licenses/by/4.0
+[CC0-1.0]: http://creativecommons.org/licenses/cc0/1.0

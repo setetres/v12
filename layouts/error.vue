@@ -44,7 +44,7 @@
 
         head() {
             return {
-                title: 'XXXXXXXOOO — Error'
+                title: 'Sete Três — v12'
             }
         },
 

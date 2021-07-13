@@ -80,7 +80,7 @@
 
         head() {
             return {
-                title: 'Sete Três — Web'
+                title: 'Sete Três — v12'
             }
         },
 

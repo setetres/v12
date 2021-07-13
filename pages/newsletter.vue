@@ -29,7 +29,7 @@
 
         head() {
             return {
-                title: 'Sete Três — Newsletter'
+                title: 'Sete Três — v12'
             }
         },
 
